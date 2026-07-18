@@ -20,4 +20,4 @@ web-app/
 
 ## Despliegue
 
-helm install web-release ./web-app
+kubectl apply -f application.yaml
